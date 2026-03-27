@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inicio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="layout">
+    <main class="container">
+      <h1>Inicio</h1>
+      <p>Escoga el género de la bebida</p>
+
+      <section class="image-grid">
+        <a class="image-card" data-step="1" data-option="1" href="pageH-Drinks.html">
+          <img src="https://picsum.photos/seed/step1a/400/250" alt="First choice at step one" />
+          <span>Bebidas calientes</span>
+        </a>
+        <a class="image-card" data-step="1" data-option="2" href="pageI-Drinks.html">
+          <img src="https://picsum.photos/seed/step1c/400/250" alt="Second choice at step one" />
+          <span>Bebidas frías</span>
+        </a>
+        <a class="image-card" data-step="1" data-option="3" href="pageT-Teas.html">
+          <img src="https://picsum.photos/seed/step1b/400/250" alt="Third choice at step one" />
+          <span>Tés</span>
+        </a>
+      </section>
+
+      <div class="actions">
+        <button class="repeat-btn" type="button">Repeat the cycle</button>
+        <button class="go-index-btn" type="button">Go to index</button>
+        <button class="back-btn" type="button">Back</button>
+      </div>
+
+      <section class="config">
+        <h2>Google Sheets setup</h2>
+        <p>Pega tu Google Apps Script Web App URL. The script será escrito en la hoja2.</p>
+        <form id="sheet-config-form" class="config-form">
+          <input id="sheet-url-input" type="url" placeholder="https://script.google.com/macros/s/.../exec" required />
+          <button type="submit">Save URL</button>
+        </form>
+      </section>
+    </main>
+
+    <aside class="saved-panel">
+      <h2>Pendiente por enviar</h2>
+      <ul id="pending-selections-list"></ul>
+    </aside>
+  </div>
+  <button class="reset-cycle-btn" type="button">Reset cycles</button>
+  <script src="app.js"></script>
+</body>
+</html>

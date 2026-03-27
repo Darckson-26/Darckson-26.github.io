@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="layout">
+    <main class="container">
+      <h1>Tés</h1>
+
+      <section class="image-grid">
+        <a class="image-card" data-step="2" data-option="1" href="pageT-BlackTea.html">
+          <span>Té Negro</span>
+        </a>
+        <a class="image-card" data-step="2" data-option="2" href="pageT-GreenTea.html">
+          <span>Té Verde</span>
+        </a>
+        <a class="image-card" data-step="2" data-option="2" href="pageT-GreenTea.html">
+          <span>Té Manzanilla</span>
+        </a>
+        <a class="image-card" data-step="2" data-option="3" href="pageT-MatchaVainillaTea.html">
+          <span>Té Matcha y Vainilla</span>
+        </a>
+      </section>
+
+      <div class="actions">
+        <button class="repeat-btn" type="button">Repeat the cycle</button>
+        <button class="go-index-btn" type="button">Go to index</button>
+        <button class="back-btn" type="button">Back</button>
+      </div>
+    </main>
+
+    <aside class="saved-panel">
+      <h2>Pendiente por enviar</h2>
+      <ul id="pending-selections-list"></ul>
+    </aside>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ice Manzanilla con leche y te</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="layout">
+    <main class="container">
+      <h1>Ice Manzanilla con Leche y Té</h1>
+      <p>Ingrese seleccione la cantidad y tamaño de la bebida y presione <strong>Add</strong>.</p>
+
+      <section class="counter-list" id="final-counter-list">
+        <article class="counter-item" data-option="1">
+          <span class="counter-label">Pequeño</span>
+          <div class="counter-controls">
+            <button class="counter-btn minus" type="button" data-action="decrease">-</button>
+            <span class="counter-value" data-counter-value>0</span>
+            <button class="counter-btn plus" type="button" data-action="increase">+</button>
+          </div>
+        </article>
+
+        <article class="counter-item" data-option="2">
+          <span class="counter-label">Mediano</span>
+          <div class="counter-controls">
+            <button class="counter-btn minus" type="button" data-action="decrease">-</button>
+            <span class="counter-value" data-counter-value>0</span>
+            <button class="counter-btn plus" type="button" data-action="increase">+</button>
+          </div>
+        </article>
+
+        <article class="counter-item" data-option="3">
+          <span class="counter-label">Grande</span>
+          <div class="counter-controls">
+            <button class="counter-btn minus" type="button" data-action="decrease">-</button>
+            <span class="counter-value" data-counter-value>0</span>
+            <button class="counter-btn plus" type="button" data-action="increase">+</button>
+          </div>
+        </article>
+      </section>
+
+      <div class="actions">
+        <button id="add-selection-btn" class="add-btn" type="button">Add</button>
+        <button class="repeat-btn" type="button">Repeat the cycle</button>
+        <button class="go-index-btn" type="button">Go to index</button>
+        <button class="back-btn" type="button">Back</button>
+      </div>
+    </main>
+
+    <aside class="saved-panel">
+      <h2>Pendiente por enviar</h2>
+      <ul id="pending-selections-list"></ul>
+    </aside>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

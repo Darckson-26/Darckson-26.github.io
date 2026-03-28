@@ -16,7 +16,7 @@
     'pageI-MatchaMilkTea.html': {id: 'Matcha MilkTea', step: 8 },
     'pageI-CoconutMilkTea.html': { id: 'Coco MilkTea', step: 9 },
     'pageI-PassionFruitTea.html': { id: 'Maracuya MilkTea', step: 10 },
-    'pageI-GuanabaMilkTea.html': { id: 'Guanabana MilkTea', step: 11 },
+    'pageI-GuanabanaMilkTea.html': { id: 'Guanabana MilkTea', step: 11 },
     'pageI-MoraMilkTea.html': { id: 'Mora MilkTea', step: 12 },
     'pageI-JasmineMilkTeaCaramelisedTapioca.html': { id: 'Jasmine MilkTea Caramelisado', step: 13 },
     'pageT-BlackTea.html': { id: 'Te Negro', step: 14 },
